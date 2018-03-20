@@ -1,0 +1,232 @@
+07:01:19.245 [JavaFX Application Thread] DEBUG GameApplication      - Logger initialized
+07:01:19.248 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+07:01:19.317 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 1920.0 x 1080.0
+07:01:19.317 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    1920.0 x 1080.0
+07:01:19.317 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+07:01:19.423 [JavaFX Application Thread] DEBUG GameApplication      - Starting FXGL
+07:01:19.445 [FXGL Launcher Thread     ] INFO  Version              - FXGL-0.4.3
+07:01:19.445 [FXGL Launcher Thread     ] INFO  Version              - Source code and latest versions at: https://github.com/AlmasB/FXGL
+07:01:19.445 [FXGL Launcher Thread     ] INFO  Version              -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+07:01:19.446 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading FXGL system data
+07:01:19.449 [FXGL Launcher Thread     ] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+07:01:19.452 [FXGL Launcher Thread     ] DEBUG FS                   - Reading from: system\fxgl.bundle
+07:01:19.460 [FXGL Launcher Thread     ] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+07:01:19.460 [FXGL Launcher Thread     ] DEBUG Bundle               - Logging bundle: FXGL
+07:01:19.460 [FXGL Launcher Thread     ] DEBUG Bundle               - FXGL.offline.timer.version.check=2018-03-19T21:48:06.121
+07:01:19.466 [FXGL Launcher Thread     ] DEBUG GameApplication      - FXGL started
+07:01:19.467 [FXGL Launcher Thread     ] DEBUG GameApplication      - Logging game settings
+Title: Zombie Game
+Version: 0.1
+Width: 1920
+Height: 1080
+Fullscreen: true
+Intro: true
+Menus: true
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: UNDECORATED
+Scene Factory: class com.almasb.fxgl.scene.SceneFactory
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+Notification Service: class com.almasb.fxgl.gameplay.notification.XboxNotificationView
+Exception Handler: class com.almasb.fxgl.app.FXGLExceptionHandler
+07:01:19.467 [FXGL Launcher Thread     ] DEBUG GameApplication      - Configuring GameApplication
+07:01:19.467 [FXGL Launcher Thread     ] DEBUG GameApplication      - Initializing state machine and application states
+07:01:19.473 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+07:01:19.485 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+07:01:19.486 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+07:01:19.490 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/core/notification.wav
+07:01:19.509 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/select.wav
+07:01:19.510 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/back.wav
+07:01:19.511 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/press.wav
+07:01:19.512 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+07:01:19.562 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+07:01:19.565 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+07:01:19.565 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/icons/fxgl_icon.png
+07:01:19.571 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+07:01:19.583 [FXGL Launcher Thread     ] DEBUG FXGL.GameScene       - Game scene initialized: 1920x1080
+07:01:19.585 [FXGL Launcher Thread     ] DEBUG FXGL.GameWorld       - Game world initialized
+07:01:19.613 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=1080, physics.ppm=50.0
+07:01:19.619 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+07:01:19.626 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+07:01:19.627 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createMenuBodyMainMenu()
+07:01:19.631 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/english.properties
+07:01:19.632 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.632 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createOptionsMenu()
+07:01:19.632 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.633 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.633 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.633 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.633 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.634 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.634 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.635 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.635 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+07:01:19.636 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createMenuBodyGameMenu()
+07:01:19.636 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.637 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.637 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createOptionsMenu()
+07:01:19.637 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.637 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.638 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.638 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.638 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.638 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.638 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:19.642 [FXGL Launcher Thread     ] INFO  GameApplication      - Game configuration took:  0.175 sec
+07:01:19.650 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+07:01:19.687 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (0.0, 0.0)
+07:01:19.687 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 1920.0 x 1080.0
+07:01:19.687 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+07:01:19.687 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1920.0 x 1080.0
+07:01:19.687 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1920.0 x 1080.0
+07:01:19.687 [JavaFX Application Thread] DEBUG GameApplication      - Running preInit()
+07:01:19.688 [JavaFX Application Thread] DEBUG AnnotationParser     - Main app package name: me.jordan.zombiegame
+07:01:19.730 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetAchievementStore: []
+07:01:19.743 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+07:01:19.743 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - CTRL+0
+07:01:19.743 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+07:01:19.743 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Right - D
+07:01:19.743 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Left - A
+07:01:19.743 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Down - S
+07:01:19.743 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Up - W
+07:01:19.744 [JavaFX Application Thread] DEBUG MenuEventHandler     - generateDefaultProfile()
+07:01:19.744 [JavaFX Application Thread] DEBUG MenuEventHandler     - Creating default profile
+07:01:19.744 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+07:01:19.745 [JavaFX Application Thread] DEBUG AudioPlayer          - Saving data to profile
+07:01:19.745 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+07:01:19.745 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+07:01:19.745 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+07:01:19.745 [JavaFX Application Thread] DEBUG Input                - Saving data to profile
+07:01:19.745 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+07:01:19.745 [JavaFX Application Thread] DEBUG Bundle               - input.Move Right=D
+07:01:19.745 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+07:01:19.746 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+07:01:19.746 [JavaFX Application Thread] DEBUG Bundle               - input.Move Up=W
+07:01:19.746 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+07:01:19.746 [JavaFX Application Thread] DEBUG Bundle               - input.Move Left=A
+07:01:19.746 [JavaFX Application Thread] DEBUG Bundle               - input.Move Down=S
+07:01:19.748 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+07:01:19.748 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=0
+07:01:19.748 [JavaFX Application Thread] DEBUG AchievementManager   - Saving data to profile
+07:01:19.748 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+07:01:19.758 [JavaFX Application Thread] DEBUG GameApplication      - Starting main loop
+07:01:19.762 [JavaFX Application Thread] DEBUG StartupState         - STARTUP
+07:01:19.762 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:19.778 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> IntroState
+07:01:25.283 [JavaFX Application Thread] DEBUG EventBus             - Firing event: IntroFinishedEvent
+07:01:25.283 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:25.287 [JavaFX Application Thread] DEBUG AppStateMachine      - IntroState -> MainMenuState
+07:01:25.291 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Checking profiles dir: profiles/
+07:01:25.291 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading profile names
+07:01:25.293 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+07:01:25.295 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+07:01:25.295 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:25.295 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+07:01:25.297 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadDirectoryNamesTask(./profiles/, false)
+07:01:25.336 [JavaFX Application Thread] DEBUG IOTask               - succeed(): Dismissing dialog
+07:01:25.336 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+07:01:25.336 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:25.337 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+07:01:25.337 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: loadDirectoryNamesTask(./profiles/, false)
+07:01:25.338 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+07:01:25.338 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:25.338 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+07:01:26.414 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+07:01:26.414 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:26.414 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+07:01:26.415 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading profile: Jordan
+07:01:26.415 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+07:01:26.416 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+07:01:26.416 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:26.416 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+07:01:26.417 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: readDataTask(./profiles/Jordan/user.profile)
+07:01:26.417 [FXGL Background Thread 1 ] DEBUG FS                   - Reading from: .\profiles\Jordan\user.profile
+07:01:26.424 [JavaFX Application Thread] DEBUG IOTask               - succeed(): Dismissing dialog
+07:01:26.424 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+07:01:26.424 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:26.424 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+07:01:26.424 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: readDataTask(./profiles/Jordan/user.profile)
+07:01:26.425 [JavaFX Application Thread] DEBUG EventBus             - Firing event: LoadEvent[type=LOAD_PROFILE]
+07:01:26.425 [JavaFX Application Thread] DEBUG AudioPlayer          - Loading data from profile
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+07:01:26.425 [JavaFX Application Thread] DEBUG Input                - Loading data from profile
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - input.Move Right=D
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - input.Move Up=W
+07:01:26.425 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+07:01:26.426 [JavaFX Application Thread] DEBUG Bundle               - input.Move Left=A
+07:01:26.426 [JavaFX Application Thread] DEBUG Bundle               - input.Move Down=S
+07:01:26.426 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+07:01:26.426 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=12549999498
+07:01:26.426 [JavaFX Application Thread] DEBUG AchievementManager   - Loading data from profile
+07:01:26.426 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+07:01:26.427 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading last modified save file
+07:01:26.427 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading save files
+07:01:26.428 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+07:01:26.429 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+07:01:26.429 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:26.429 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+07:01:26.430 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Jordan/saves/, true, [FileExtension(extension=.sav)])
+07:01:26.430 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Jordan/saves/, true, [FileExtension(extension=.sav)])
+07:01:26.430 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Jordan/saves/, true, [FileExtension(extension=.sav)])
+07:01:26.431 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: readSaveFiles
+07:01:26.432 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: findLastSave
+07:01:26.436 [JavaFX Application Thread] DEBUG IOTask               - fail(): Dismissing dialog
+07:01:26.436 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+07:01:26.436 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+07:01:26.436 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+07:01:26.436 [JavaFX Application Thread] WARN  IOTask               - Task failed: loadFileNamesTask(./profiles/Jordan/saves/, true, [FileExtension(extension=.sav)]) Error: java.io.FileNotFoundException: No save files found
+07:01:30.478 [JavaFX Application Thread] DEBUG FXGL.Menu            - createContentVideo()
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:30.481 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+07:01:33.541 [JavaFX Application Thread] DEBUG FXGL.Menu            - createContentAudio()
+07:01:34.974 [JavaFX Application Thread] DEBUG FXGL.Menu            - createContentControls()
+07:01:49.106 [JavaFX Application Thread] DEBUG GameApplication      - Exiting game application
+07:01:49.107 [JavaFX Application Thread] DEBUG MenuEventHandler     - Creating default profile
+07:01:49.107 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+07:01:49.107 [JavaFX Application Thread] DEBUG AudioPlayer          - Saving data to profile
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+07:01:49.107 [JavaFX Application Thread] DEBUG Input                - Saving data to profile
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - input.Move Right=D
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - input.Move Up=W
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - input.Move Left=A
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - input.Move Down=S
+07:01:49.107 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+07:01:49.108 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=12549999498
+07:01:49.108 [JavaFX Application Thread] DEBUG AchievementManager   - Saving data to profile
+07:01:49.108 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+07:01:49.108 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Saving profile: Jordan
+07:01:49.108 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(./profiles/Jordan/user.profile)
+07:01:49.109 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(./profiles/Jordan/user.profile)
+07:01:49.110 [JavaFX Application Thread] DEBUG FS                   - Writing to: .\profiles\Jordan\user.profile
+07:01:49.111 [JavaFX Application Thread] DEBUG IOTask               - Executing task: checkSavesDir(./profiles/Jordan/saves/)
+07:01:49.111 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(./profiles/Jordan/user.profile)
+07:01:49.111 [JavaFX Application Thread] DEBUG GameApplication      - Shutting down background threads
+07:01:49.111 [JavaFX Application Thread] DEBUG GameApplication      - Exiting FXGL
+07:01:49.112 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+07:01:49.112 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+07:01:49.112 [JavaFX Application Thread] DEBUG FS                   - Writing to: system\fxgl.bundle
+07:01:49.114 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
+07:01:49.114 [JavaFX Application Thread] DEBUG GameApplication      - Closing logger and exiting JavaFX
